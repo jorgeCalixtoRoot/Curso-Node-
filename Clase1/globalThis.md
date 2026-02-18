@@ -20,10 +20,11 @@
 
 ## Representación Visual
 
-```mermaid
-graph TD
-    A[globalThis] -- nodejs --> B(global)
-    A -- navegador --> C(window)
+
+```text
+globalThis
+    ├─ nodejs → global
+    └─ navegador → window
 ```
 
 ---
